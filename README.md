@@ -22,3 +22,17 @@ Entrenar el modelo:
 
 ```bash
 python train.py --data edustream_dropout.csv --out models/model.pkl
+
+## Flujo Gitflow practicado
+
+En esta homework se practicó un flujo de trabajo basado en ramas:
+
+- `master`: rama estable del proyecto.
+- `developer`: rama principal de desarrollo.
+- `certification`: rama utilizada para pruebas antes de pasar a estable.
+- `feature/...`: ramas temporales para trabajar cambios puntuales.
+
+El flujo seguido fue:
+
+```text
+feature → developer → certification → master
