@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+models/
+new_data.csv
+predictions.csv
+*.pkl
+*.joblib
